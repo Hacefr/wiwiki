@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Wiki - Home</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Game Wiki Directory</h1>
+        <p>Your ultimate guide for characters and strategies.</p>
+        <input type="text" id="searchInput" onkeyup="filterList()" placeholder="Search characters...">
+    </header>
+
+    <main class="character-grid" id="characterList">
+        <!-- Duplicate the button below for every new character you add -->
+        <button onclick="loadCharacter('pageone')">
+            <img src="https://placeholder.com" alt="Character Portrait">
+            <h2>Character One</h2>
+        </button>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
